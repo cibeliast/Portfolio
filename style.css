@@ -18,7 +18,7 @@ body {
 /* Home */
 
 .home {
-    height: 100dvh;
+    min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -38,7 +38,7 @@ body {
 
 .home h1 {
     font-family: 'Playfair Display', serif;
-    font-size: 5rem;
+    font-size: 4rem;
     color: #6a4c8c;
     margin-bottom: 20px;
 }
@@ -48,7 +48,7 @@ body {
     border-radius: 10px;
     border: none;
     color: white;
-    padding: 15px;
+    padding: 13px;
     text-decoration: none;
 }
 
@@ -93,7 +93,7 @@ body {
 }
 
 .about p {
-    font-size: 1.25rem; 
+    font-size: 1rem; 
     line-height: 1.8;
     text-align: justify;
     color: #333; 
@@ -105,8 +105,8 @@ body {
 
 .about ul li {
     text-align: center;
-    font-size: 1.2rem; 
-    margin: 10px 0;
+    font-size: 0.9rem; 
+    margin: 8px 0;
     color: #585768; 
 }
 
@@ -138,7 +138,7 @@ body {
 }
 
 .contact-icon {
-    font-size: 2rem;
+    font-size: 1.7rem;
     color: #6a4c8c;
     text-decoration: none;
     transition: color 0.3s, transform 0.3s;
@@ -152,48 +152,49 @@ body {
 /* Responsive */
 @media (max-width: 768px) {
     .home h1 {
-        font-size: 2.7rem;
+        font-size: 2.5rem;
     }
 
    .home a {
-        padding: 13px;
+        font-size: 0.8rem;
+        padding: 10px;
    }
 
    .about {
-    gap: 20px;
-    padding: 30px 20px;
+        gap: 10px;
+        padding: 30px 20px;
    }
 
    .about .aboutMe {
-    width: 90%;
-    padding: 15px;
+        width: 90%;
+        padding: 15px;
    }
     
    .about h2 {
-    font-size: 1.8rem;
+        font-size: 1.5rem;
    }
 
    .about img {
-    width: 100px;
-    height: 100px;
+        width: 100px;
+        height: 100px;
    }
 
    .about p {
-    font-size: 1rem;
-    text-align: justify;
+        font-size: 0.8rem;
+        text-align: justify;
    }
 
    .about ul li {
-    font-size: 0.9rem;
+        font-size: 0.7rem;
    }
 
    .contact {
-    margin: 0;
-    gap: 15px;
+        margin: 0;
+        gap: 10px;
    }
 
    .contact-icon {
-    font-size: 1.5rem;
+        font-size: 1.4rem;
    }
    
 }
